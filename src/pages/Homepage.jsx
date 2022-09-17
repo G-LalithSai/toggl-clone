@@ -311,7 +311,7 @@ function Homepage() {
                 style={{
                   fontSize: "2rem",
                   lineHeight: "2rem",
-                  marginBottom: "4rem",
+                  marginBottom: "2rem",
                 }}
               >
                 Do you <em>sell your time?</em> We'll help you get the numbers
