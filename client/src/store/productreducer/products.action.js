@@ -9,7 +9,9 @@ import {
 
 export const GetproductApi = () => async (dispatch) => {
   try {
-    const response = await axios.get("https://dry-lake-12626.herokuapp.com/products");  
+    const response = await axios.get(
+      "https://dry-lake-12626.herokuapp.com/products"
+    );
     dispatch({
       type: GET_PRODUCTS,
       payload: response.data,
